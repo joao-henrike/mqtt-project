@@ -1,0 +1,7 @@
+# O usuário do sensor pode apenas escrever no seu tópico específico.
+user sensor-user
+topic write sensor/temperature
+
+# O usuário assinante pode apenas ler os tópicos sob a hierarquia "sensor/".
+user subscriber-user
+topic read sensor/#
